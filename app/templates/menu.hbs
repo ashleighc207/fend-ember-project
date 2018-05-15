@@ -2,11 +2,7 @@
 {{log model}}
 <ul class="items-container">
 	{{#each model as |item|}}
-	<li class="menu-item">
-		<h4>{{item.name}}</h4>
-		<img src="/img/{{item.image}}" alt="{{item.name}}" width="300" height="400">
-		<span class="link">{{#link-to 'item' item.id}}Details{{/link-to}}</span>
-	</li>
+		{{menu-item item=item}}
 	{{/each}}
 </ul>
 

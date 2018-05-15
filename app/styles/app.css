@@ -30,3 +30,7 @@ html, body {
 	text-decoration-color: cornflowerblue;
 	text-decoration-style: thick;
 }
+.center {
+	margin: 0 auto;
+	text-align: center;
+}

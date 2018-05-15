@@ -7,8 +7,8 @@
 		<p>
 			{{model.description}}
 		</p>
-		<p>
-			<a href="/item/{{model.name}}/nutrition" class="link">Nutrition Info</a>
+		<p class="link">
+			{{#link-to 'item.nutrition'}}Nutrition Info{{/link-to}}
 		</p>
 	</li>
 </ul>

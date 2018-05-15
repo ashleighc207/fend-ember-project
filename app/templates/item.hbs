@@ -1,14 +1,14 @@
 <link rel="stylesheet" href="/public/styles.css">
-<ul class="items-container">
-	<li>
-		<h4>Ham and Goat Cheese Croissant</h4>
-		<img src="/img/ham-goat-cheese-croissant.jpg" alt="">
-		<p>3.9</p>
+<ul class="item-container">
+	<li class="menu-item">
+		<h4>{{model.name}}</h4>
+		<img src="/img/{{model.image}}" alt="" width="300" height="400">
+		<p>{{model.rating}}</p>
 		<p>
-			This is delicious if you're into that kinda thing.
+			{{model.description}}
 		</p>
 		<p>
-			<a href="/item/ham-goat-cheese-croissant/nutrition" class="link">Nutrition Info</a>
+			<a href="/item/{{model.name}}/nutrition" class="link">Nutrition Info</a>
 		</p>
 	</li>
 </ul>

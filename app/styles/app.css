@@ -11,14 +11,21 @@ html, body {
 	text-align: center;
 	margin: 0;
 }
+.item-container {
+	display:  flex;
+	list-style-type: none;
+	text-align: center;
+	margin: 0 auto;
+	width:  350px;
+}
 
-.link {
+.link a {
 	text-decoration: none;
 	color: #222222;
 	font-size: 20px;
 }
 
-.link:hover {
+.link a:hover {
 	text-decoration: underline;
 	text-decoration-color: cornflowerblue;
 	text-decoration-style: thick;
